@@ -12,7 +12,7 @@ library(ggplot2)
 processDirections <- function(origin, destination, mode){
 
 	current_time <- Sys.time() + 1
-	api_key <- 'AIzaSyAULkC6XdfhC2MDnLmO9tpZDlJmHjBhZ3U'
+	api_key <- 'oops_almost_put_it_in_here'
 
 	result <- google_directions(origin=origin, destination=destination, mode=mode, key=api_key, departure_time = current_time)  # May need to process to get into desired dataframe.  May need to make time of day
 
